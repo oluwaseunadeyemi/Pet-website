@@ -1,15 +1,85 @@
-h1{
-    color: chocolate;
-    text-decoration: underline;
-}
-p{
-    color: blueviolet;
-}
-ul{
-    color: crimson;
-
-}
-ol{
-    color: purple;
+.b{
+    background-image: url(pexels-miami302-22941080\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
+.b h1{
+    font-size: 100px;
+    font-family: cursive;
+    color: rgb(161 0 46);
+}
+
+.about{
+    background-color: rgb(197, 203, 226);
+    margin: 30px;
+}
+
+.about p{
+    font-size: 30px;
+    color: rgb(17,26,36);
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fav{
+    background-color: rgb(232,236,214);
+    margin: 30px;
+    
+}
+.fav p{
+    color: rgb(17,26,36);
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fav ol{
+    color: rgb(17,26,36);
+    font-size: 30px;
+    padding-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.toys{
+    background-color: rgb(149, 164, 152);
+    margin: 30px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.toys p{
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(17,26,36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.toys ul{
+    font-size: 30px;
+    padding-left: 100px;
+    color: rgb(17,26,36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fav img{
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    height: 60vh;
+}
+
+.toys img{
+    width: 30%;
+    height: 60vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
